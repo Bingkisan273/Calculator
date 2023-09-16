@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="display" readonly/>
+        </div>
+        <div class="buttons">
+            <button class="tombol" onclick="tampilkanNilaiButton('7')">7</button>
+            <button class="tombol" onclick="tampilkanNilaiButton('8')">8</button>
+            <button class="tombol" onclick="tampilkanNilaiButton('9')">9</button>
+            <button class="tombol" onclick="tampilkanNilaiButton(' + ')">+</button>
+
+            <button class="tombol" onclick="tampilkanNilaiButton('4')">4</button>
+            <button class="tombol" onclick="tampilkanNilaiButton('5')">5</button>
+            <button class="tombol" onclick="tampilkanNilaiButton('6')">6</button>
+            <button class="tombol" onclick="tampilkanNilaiButton(' - ')">-</button>
+
+            <button class="tombol" onclick="tampilkanNilaiButton('1')">1</button>
+            <button class="tombol" onclick="tampilkanNilaiButton('2')">2</button>
+            <button class="tombol" onclick="tampilkanNilaiButton('3')">3</button>
+            <button class="tombol" onclick="tampilkanNilaiButton(' * ')">*</button>
+
+            <button class="tombol" onclick="kosong()">C</button>
+            <button class="tombol" onclick="tampilkanNilaiButton('0')">0</button>
+            <button class="tombol" onclick="hitung()">=</button>
+            <button class="tombol" onclick="tampilkanNilaiButton(' / ')">/</button>
+
+            <button class="tombol" onclick="tampilkanNilaiButton(' % ')">%</button>
+            <button class="tombol" onclick="tampilkanNilaiButton(' ** ')">**</button>
+            <button class="tombol" onclick="tampilkanNilaiButton(' < ')"><</button>
+            <button class="tombol" onclick="tampilkanNilaiButton(' > ')">></button>
+            <marquee>M.Dzikri Ihsan Ichwanul Rahmat, BQ City, 8A, Andalusia</marquee>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
